@@ -16,9 +16,6 @@ function plainRun() {
   } else {
     resultLbl.innerHTML = "False";
   }
-
-  alert(goodText);
-  alert(resultArr);
 }
 
 runBtn.addEventListener("click", plainRun);
